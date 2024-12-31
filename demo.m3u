@@ -315,3 +315,5 @@
 
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="央视频道",CGTN阿语
 
+with open(current_path + '/../data/' + dataset + '.txt', 'r') as f:
+    lines = f.readlines()
